@@ -8,11 +8,3 @@ document.getElementById('btn-rhombus').addEventListener('click', () => {
     const areaContainer = document.getElementById('area-container');
     areaContainer.appendChild(area);
 });
-
-function getInputValueById(inputId){
-    const inputText = document.getElementById(inputId);
-    const inputValue = inputText.value;
-    const value = parseFloat(inputValue);
-    inputText.value = '';
-    return value;
-}
