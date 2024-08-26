@@ -121,13 +121,13 @@
                       <h2 class="text-xl font-semibold">Pentagon</h2>
                       <p>Area (A) = 0.5 X p X b</p>
                       <div class="flex justify-center items-center gap-2">
-                        <input class="w-24 h-8 text-xl p-2 rounded-md bg-gray-100" type="text" placeholder="p">
+                        <input id="pentagon-base" class="w-24 h-8 text-xl p-2 rounded-md bg-gray-100" type="text" placeholder="p">
                         <span>cm</span>
-                        <input class="w-24 h-8 text-xl p-2 rounded-md bg-gray-100" type="text" placeholder="b">
+                        <input id="pentagon-height" class="w-24 h-8 text-xl p-2 rounded-md bg-gray-100" type="text" placeholder="b">
                         <span>cm</span>
                       </div>
                       <div class="card-actions">
-                        <button class="btn btn-primary w-full">Calculate</button>
+                        <button id="btn-pentagon" class="btn btn-primary w-full">Calculate</button>
                       </div>
                     </div>
                   </div>
@@ -140,7 +140,7 @@
                     </figure>
                     <div class="card-body space-y-4">
                       <h2 class="text-xl font-semibold">Ellipse</h2>
-                      <p>Area (A) = &#8508;ab</p>
+                      <p>Area (A) = πab</p>
                       <div class="flex justify-center items-center gap-2">
                         <input class="w-24 h-8 text-xl p-2 rounded-md bg-gray-100" type="text" placeholder="a">
                         <span>cm</span>
@@ -166,5 +166,6 @@
     <script src="./js/rectangle.js"></script>
     <script src="./js/parallelogram.js"></script>
     <script src="./js/rhombus.js"></script>
+    <script src="./js/pentagon.js"></script>
 </body>
 </html>
